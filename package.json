@@ -1,0 +1,22 @@
+{
+  "name": "draakjeyoblama.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "build-ghpages": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve",
+    "debug": "DEBUG=* npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DraakjeYoblama/DraakjeYoblama.github.io.git"
+  },
+  "keywords": [],
+  "author": "Douwe Somers",
+  "license": "",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
