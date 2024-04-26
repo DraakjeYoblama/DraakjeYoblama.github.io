@@ -9,7 +9,6 @@ module.exports = function (eleventyConfig) {
   // these files and folders will not be processed by 11ty
   // more info: https://www.11ty.dev/docs/copy/
   eleventyConfig.addPassthroughCopy("CNAME");
-  eleventyConfig.addPassthroughCopy(".nojekyll");
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/media");
   eleventyConfig.addPassthroughCopy("src/scripts");
