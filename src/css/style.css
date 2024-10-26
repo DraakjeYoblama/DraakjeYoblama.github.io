@@ -1,0 +1,21 @@
+body {
+    font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif';
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 8em
+}
+
+p {
+    font-size: 4em
+}
+
+a {
+    color:#008000
+}
+
+.hidden {
+    font-size: 1em;
+    color: #fff
+}
